@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad8a67a-9cdd-41e7-bc4a-c57d6a13e24e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/single/MyObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/timer/MyTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/test/lock/ReentranReadWriteLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/test/lock/ReentranReadWriteLockTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReentranReadWriteLockTest">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.DeadLock" />
-      <module name="java8SourceLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyObject">
     <configuration name="LockMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.LockMethodTest" />
       <module name="java8SourceLearn" />
@@ -80,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentranReadWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.ReentranReadWriteLockTest" />
+    <configuration name="MyObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.single.MyObject" />
       <module name="java8SourceLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.test.lock.*" />
+          <option name="PATTERN" value="com.learn.test.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.SimpleCondition" />
+    <configuration name="MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.timer.MyTask" />
+      <module name="java8SourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.test.timer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentranReadWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.ReentranReadWriteLockTest" />
       <module name="java8SourceLearn" />
       <extension name="coverage">
         <pattern>
@@ -120,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleCondition" />
-      <item itemvalue="Application.DeadLock" />
       <item itemvalue="Application.SysDeadLock" />
       <item itemvalue="Application.LockMethodTest" />
       <item itemvalue="Application.ReentranReadWriteLockTest" />
+      <item itemvalue="Application.MyTask" />
+      <item itemvalue="Application.MyObject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyObject" />
+        <item itemvalue="Application.MyTask" />
         <item itemvalue="Application.ReentranReadWriteLockTest" />
         <item itemvalue="Application.LockMethodTest" />
         <item itemvalue="Application.SysDeadLock" />
-        <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.SimpleCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594603693032</updated>
-      <workItem from="1594603698289" duration="15234000" />
+      <workItem from="1594603698289" duration="19004000" />
     </task>
     <task id="LOCAL-00001" summary="关于锁相关测试">
       <created>1594620506756</created>
