@@ -4,7 +4,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * @Description: 读写锁测试
- * 现象：方法1 读锁几乎同时都能拿到锁，方法2 需要等待第一个线程释放锁第二个线程才能拿到锁
+ * 现象：方法1 读锁几乎同时都能拿到锁，方法2 需要等待第一个线程释放锁第二个线程才能拿到锁,读写也互斥
  * @author: zhongxp
  * @Date: 7/13/2020 2:25 PM
  */
@@ -57,23 +57,23 @@ public class ReentranReadWriteLockTest {
 
       /*  Runnable r1 = () -> {
             reentranReadWriteLockTest.read();
-        };
+        };*/
         Runnable r2 = () -> {
             reentranReadWriteLockTest.read();
         };
-        new Thread(r1).start();
+       // new Thread(r1).start();
         new Thread(r2).start();
-*/
 
-        Runnable r3 = () -> {
+
+      /*  Runnable r3 = () -> {
             reentranReadWriteLockTest.write();
-        };
+        };*/
 
         Runnable r4 = () -> {
             reentranReadWriteLockTest.write();
         };
 
-        new Thread(r3).start();
+       // new Thread(r3).start();
         new Thread(r4).start();
     }
 }
