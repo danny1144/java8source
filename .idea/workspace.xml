@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad8a67a-9cdd-41e7-bc4a-c57d6a13e24e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/test/lock/ThreadGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/hashmap/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/source/java/util/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/source/java/util/HashMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_191/lib/tools.jar!/" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -146,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594603693032</updated>
-      <workItem from="1594603698289" duration="20663000" />
+      <workItem from="1594603698289" duration="23560000" />
     </task>
     <task id="LOCAL-00001" summary="关于锁相关测试">
       <created>1594620506756</created>
