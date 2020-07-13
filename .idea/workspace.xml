@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad8a67a-9cdd-41e7-bc4a-c57d6a13e24e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/test/single/MyObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/test/timer/MyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/lock/ThreadGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyObject">
+  <component name="RunManager" selected="Application.ThreadGroupTest">
     <configuration name="LockMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.LockMethodTest" />
       <module name="java8SourceLearn" />
@@ -107,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SysDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.SysDeadLock" />
+    <configuration name="ThreadGroupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.ThreadGroupTest" />
       <module name="java8SourceLearn" />
       <extension name="coverage">
         <pattern>
@@ -121,19 +120,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SysDeadLock" />
       <item itemvalue="Application.LockMethodTest" />
       <item itemvalue="Application.ReentranReadWriteLockTest" />
       <item itemvalue="Application.MyTask" />
       <item itemvalue="Application.MyObject" />
+      <item itemvalue="Application.ThreadGroupTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadGroupTest" />
         <item itemvalue="Application.MyObject" />
         <item itemvalue="Application.MyTask" />
         <item itemvalue="Application.ReentranReadWriteLockTest" />
         <item itemvalue="Application.LockMethodTest" />
-        <item itemvalue="Application.SysDeadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594603693032</updated>
-      <workItem from="1594603698289" duration="19004000" />
+      <workItem from="1594603698289" duration="20663000" />
     </task>
     <task id="LOCAL-00001" summary="关于锁相关测试">
       <created>1594620506756</created>
