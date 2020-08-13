@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ad8a67a-9cdd-41e7-bc4a-c57d6a13e24e" name="Default Changelist" comment="join">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/test/lock/XpLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/test/lock/XpLockTest.java" afterDir="false" />
+    <list default="true" id="1ad8a67a-9cdd-41e7-bc4a-c57d6a13e24e" name="Default Changelist" comment="forjoin atomic">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/design/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/event/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/hashmap/MyHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +23,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_5.groovy" />
+          <option name="moduleName" value="java8SourceLearn" />
+          <option name="title" value="java8SourceLearn (Bundled Groovy 2.4.17)" />
+        </Entry>
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -55,35 +68,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XpLockTest">
-    <configuration name="MyObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.single.MyObject" />
-      <module name="java8SourceLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.single.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.timer.MyTask" />
-      <module name="java8SourceLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.timer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.SumTest1" />
+  <component name="RunManager" selected="Application.MyStack">
+    <configuration name="BankWaterService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.BankWaterService" />
       <module name="java8SourceLearn" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadGroupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.ThreadGroupTest" />
+    <configuration name="CyclicBarrierTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.CyclicBarrierTest1" />
       <module name="java8SourceLearn" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +95,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XpLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.XpLockTest" />
+    <configuration name="ExchangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.ExchangerTest" />
+      <module name="java8SourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.test.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.design.MyStack" />
+      <module name="java8SourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.test.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.SemaphoreTest" />
       <module name="java8SourceLearn" />
       <extension name="coverage">
         <pattern>
@@ -122,21 +135,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTask" />
-      <item itemvalue="Application.MyObject" />
-      <item itemvalue="Application.ThreadGroupTest" />
-      <item itemvalue="Application.SumTest1" />
-      <item itemvalue="Application.XpLockTest" />
+      <item itemvalue="Application.BankWaterService" />
+      <item itemvalue="Application.CyclicBarrierTest1" />
+      <item itemvalue="Application.SemaphoreTest" />
+      <item itemvalue="Application.ExchangerTest" />
+      <item itemvalue="Application.MyStack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XpLockTest" />
-        <item itemvalue="Application.SumTest1" />
-        <item itemvalue="Application.ThreadGroupTest" />
-        <item itemvalue="Application.MyObject" />
-        <item itemvalue="Application.MyTask" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.ExchangerTest" />
+        <item itemvalue="Application.SemaphoreTest" />
+        <item itemvalue="Application.CyclicBarrierTest1" />
+        <item itemvalue="Application.BankWaterService" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -149,6 +165,15 @@
       <option name="presentableId" value="Default" />
       <updated>1594603693032</updated>
       <workItem from="1594603698289" duration="23560000" />
+      <workItem from="1594949545464" duration="15621000" />
+      <workItem from="1595208181255" duration="1949000" />
+      <workItem from="1596102789665" duration="663000" />
+      <workItem from="1596158267984" duration="597000" />
+      <workItem from="1597047136268" duration="1619000" />
+      <workItem from="1597110804032" duration="54000" />
+      <workItem from="1597128946829" duration="3010000" />
+      <workItem from="1597195038018" duration="379000" />
+      <workItem from="1597292052748" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="关于锁相关测试">
       <created>1594620506756</created>
@@ -164,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594622392484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="forjoin atomic">
+      <created>1594972779662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594972779662</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java中常用并发工具类">
+      <created>1594978706205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594978706205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +225,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="关于锁相关测试" />
     <MESSAGE value="读写锁测试：读读共享，写写互斥" />
-    <option name="LAST_COMMIT_MESSAGE" value="读写锁测试：读读共享，写写互斥" />
+    <MESSAGE value="forjoin atomic" />
+    <MESSAGE value="java中常用并发工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="java中常用并发工具类" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/learn/test/design/MyStack.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
