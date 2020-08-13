@@ -3,7 +3,7 @@ package com.learn.test.design;
 import java.util.LinkedList;
 
 /**
- * @Description: 设计一个有getmin的栈
+ * @Description: 设计一个有getmin的栈，时间复杂度O(1)空间复杂度O(N)
  * @author: zhongxp
  * @Date: 8/13/2020 12:14 PM
  */
