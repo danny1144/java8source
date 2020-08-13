@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad8a67a-9cdd-41e7-bc4a-c57d6a13e24e" name="Default Changelist" comment="forjoin atomic">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/test/design/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/design/BinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/test/design/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/test/design/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/test/event/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/test/event/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,7 @@
       <workItem from="1597110804032" duration="54000" />
       <workItem from="1597128946829" duration="3010000" />
       <workItem from="1597195038018" duration="379000" />
-      <workItem from="1597292052748" duration="2666000" />
+      <workItem from="1597292052748" duration="7601000" />
     </task>
     <task id="LOCAL-00001" summary="关于锁相关测试">
       <created>1594620506756</created>
@@ -226,17 +226,6 @@
     <MESSAGE value="forjoin atomic" />
     <MESSAGE value="java中常用并发工具类" />
     <option name="LAST_COMMIT_MESSAGE" value="java中常用并发工具类" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/learn/test/design/MyQueue.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
