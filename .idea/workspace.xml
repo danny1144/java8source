@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad8a67a-9cdd-41e7-bc4a-c57d6a13e24e" name="Default Changelist" comment="forjoin atomic">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/test/design/BinaryTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/lock/TestCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/lock/ThreadSwitchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/test/thread/CallableThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/test/event/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/test/event/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/source/java/util/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/source/java/util/ArrayList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +49,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_191/lib/tools.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/learn/test/lock" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\works1\bk\java8SourceLearn\src\com\learn\test\lock" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,52 +73,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyQueue">
-    <configuration name="CyclicBarrierTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.CyclicBarrierTest1" />
+  <component name="RunManager" selected="Application.ThreadSwitchTest">
+    <configuration name="CallableThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.thread.CallableThreadTest" />
+      <module name="java8SourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.test.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SafeStopThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.SafeStopThreadTest" />
       <module name="java8SourceLearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.test.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExchangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.ExchangerTest" />
-      <module name="java8SourceLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.design.MyQueue" />
-      <module name="java8SourceLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.design.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.design.MyStack" />
-      <module name="java8SourceLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,20 +113,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.TestCache" />
+      <module name="java8SourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.test.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.test.lock.ThreadSwitchTest" />
+      <module name="java8SourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.test.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CyclicBarrierTest1" />
+      <item itemvalue="Application.SafeStopThreadTest" />
+      <item itemvalue="Application.TestCache" />
+      <item itemvalue="Application.CallableThreadTest" />
       <item itemvalue="Application.SemaphoreTest" />
-      <item itemvalue="Application.ExchangerTest" />
-      <item itemvalue="Application.MyStack" />
-      <item itemvalue="Application.MyQueue" />
+      <item itemvalue="Application.ThreadSwitchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyQueue" />
-        <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.ExchangerTest" />
+        <item itemvalue="Application.ThreadSwitchTest" />
         <item itemvalue="Application.SemaphoreTest" />
-        <item itemvalue="Application.CyclicBarrierTest1" />
+        <item itemvalue="Application.CallableThreadTest" />
+        <item itemvalue="Application.TestCache" />
+        <item itemvalue="Application.SafeStopThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +178,15 @@
       <workItem from="1597110804032" duration="54000" />
       <workItem from="1597128946829" duration="3010000" />
       <workItem from="1597195038018" duration="379000" />
-      <workItem from="1597292052748" duration="7601000" />
+      <workItem from="1597292052748" duration="7784000" />
+      <workItem from="1597733953484" duration="487000" />
+      <workItem from="1597737489896" duration="5242000" />
+      <workItem from="1597798348424" duration="8566000" />
+      <workItem from="1597971679316" duration="598000" />
+      <workItem from="1598230786853" duration="601000" />
+      <workItem from="1598235881752" duration="193000" />
+      <workItem from="1598504233414" duration="768000" />
+      <workItem from="1598506836507" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="关于锁相关测试">
       <created>1594620506756</created>
